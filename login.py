@@ -13,7 +13,7 @@ class data():
       
     
 
-loginData = data(input('Masukkan username: '), input('Masukkan password: '))
+loginData = data(input('Masukkan name: '), input('Masukkan password: '))
 
 
 if(loginData.username != 'alvinakbar'):
