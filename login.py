@@ -9,14 +9,8 @@ class data():
 
 
     def menu(self):
-        print("--------------------- Selamat Datang " + self.username + " ---------------------")
-        print('')
-        print("----------------------------------------------------------------------")
-        print("|                                                                    |")
-        print("|                            I Love You                              |")
-        print("|                                                                    |")
-        print("----------------------------------------------------------------------")
-    
+        print("Selamat Datang " + self.username + "Di Indomaret")
+        
 loginData = data(input('Masukkan username: '), input('Masukkan password: '))
 
 
