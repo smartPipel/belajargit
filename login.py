@@ -10,7 +10,9 @@ class data():
 
     def menu(self):
         print("Selamat Datang " + self.username + "Di Indomaret")
-        
+      
+    
+
 loginData = data(input('Masukkan username: '), input('Masukkan password: '))
 
 
